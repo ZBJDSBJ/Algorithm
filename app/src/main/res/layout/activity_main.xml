@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="com.alost.www.algorithm.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_before_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="排序前:"
+        android:textColor="#222222"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_after_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="排序后:"
+        android:textColor="#222222"
+        android:textSize="20sp"/>
+
+</LinearLayout>
